@@ -1,0 +1,46 @@
+{
+  "name": "ic-rust-nextjs",
+  "version": "2.0.0",
+  "author": "b3hr4d <b3hr4d@live.com>",
+  "description": "Internet Computer Rust + NextJS Template",
+  "keywords": [
+    "nextjs",
+    "rust",
+    "internet computer",
+    "icp",
+    "starter",
+    "dfinity"
+  ],
+  "scripts": {
+    "install:all": "(yarn -v && yarn || npm install) && npm run ic-wasm:install && npm run candid:install ",
+    "candid:install": "cargo install candid-extractor",
+    "ic-wasm:install": "cargo install ic-wasm",
+    "build": "next build",
+    "start": "next start",
+    "export": "next build",
+    "dev": "next dev",
+    "dfx:start": "dfx start --background --clean",
+    "dfx:stop": "dfx stop",
+    "dfx:build": "sh ./predeploy.sh && dfx build",
+    "predeploy": "sh ./predeploy.sh",
+    "deploy": "dfx deploy",
+    "generate": "dfx generate"
+  },
+  "devDependencies": {
+    "@types/node": "22.0.3",
+    "@types/react": "18.3.3",
+    "dotenv": "16.4.5",
+    "typescript": "5.5.4"
+  },
+  "dependencies": {
+    "@ic-reactor/react": "1.8.2",
+    "@tanstack/query-core": "5.51.17",
+    "@tanstack/react-query": "5.51.18",
+    "@web3modal/wagmi": "5.0.11",
+    "next": "14.2.5",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "viem": "^2.7.16",
+    "wagmi": "2.12.2"
+  }
+}

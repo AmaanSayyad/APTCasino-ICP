@@ -1,0 +1,34 @@
+{
+  "canisters": {
+    "evm_rpc": {
+      "type": "custom",
+      "candid": "https://github.com/internet-computer-protocol/evm-rpc-canister/releases/latest/download/evm_rpc.did",
+      "wasm": "https://github.com/internet-computer-protocol/evm-rpc-canister/releases/latest/download/evm_rpc.wasm.gz",
+      "remote": {
+        "id": {
+          "ic": "7hfb6-caaaa-aaaar-qadga-cai"
+        }
+      },
+      "specified_id": "7hfb6-caaaa-aaaar-qadga-cai",
+      "init_arg": "(record { nodesInSubnet = 28 })"
+    },
+    "payment": {
+      "type": "rust",
+      "candid": "backend/payment/payment.did",
+      "package": "payment",
+      "declarations": {
+        "node_compatibility": true
+      }
+    },
+    "frontend": {
+      "dependencies": ["payment"],
+      "frontend": {
+        "entrypoint": "out/index.html"
+      },
+      "source": ["out"],
+      "type": "assets"
+    }
+  },
+  "output_env_file": ".env.local",
+  "version": 1
+}
