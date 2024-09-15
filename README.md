@@ -1,6 +1,7 @@
 ## APTCasino-ICP
 
 ### Inspiration
+
 One of our team-mate was on etherscan exploring some transactions and saw an advertisement of [https://stake.com/](url) which was giving 200% bonus on first deposit, when our team-mate deposited the 120 USDT into this platform they gave him 360 USDT as total balance and when our teammate started playing game he was shocked to see that he was only able to play with $1 per game of Play Plinko Online - Pachinko Casino Game on Stake.com and was unable to increase the betting amount beyond $1 coz he was using the bonus scheme of 200% and when he tried to explore and play other games on the platform he got to know that this platform has cheated him under the name of wager limits.
 
 When he tried to withdraw money they showed him this rule list of wager limit which said that if he wants to withdraw the deposited amount then he have to play $12,300 worth of game play and this was the big shock for him where he was explained a maths logic by their live support. Thereby, In the hope of getting the deposited money back he played the game Plinko entire night and lost all money.
@@ -8,6 +9,7 @@ When he tried to withdraw money they showed him this rule list of wager limit wh
 He was very annoyed of this and that's how APT-Casino born, which is a combination of ai, gamefi and defi all in one platform where new web3 users can play games, perform gambling but have a safe, secure, transparent platform that does not scam any of their users. Also we wanted to address common issues in traditional gaming platforms.
 
 ### Problem
+
 The traditional online gambling industry is plagued by several issues, including:
 - **Unfair Game Outcomes:** Many platforms manipulate game results, leading to unfair play.
 
@@ -20,10 +22,11 @@ The traditional online gambling industry is plagued by several issues, including
 - **Lack of True Asset Ownership:** Centralized platforms retain control over user assets, limiting their freedom and security.
 
 ### Solution
+
  APT-Casino addresses these problems by offering:
 - **Provably Fair Gaming:** Utilizing the ICP blockchain to ensure all game outcomes are transparent and verifiably fair.
 
-
+![APT-Casino - Analog pptx (3)](https://github.com/user-attachments/assets/6d9af6ae-6803-4600-b5dc-ad9cf0017c60)
 
 - **Low Fees:** Leveraging the efficiency of ICP and MPLX Chain to minimize transaction costs.
 
@@ -34,6 +37,7 @@ The traditional online gambling industry is plagued by several issues, including
 - **True Asset Ownership:** Decentralized asset management ensures users have full control over their assets.
 
 ### Key Features
+
 **APT-Casino** offers a multifaceted platform with three main features:
 
 **1. AI - Social Aspect:**
@@ -54,9 +58,25 @@ The traditional online gambling industry is plagued by several issues, including
 
 **Diverse Game Selection:** A variety of fully on-chain games, including roulette, mines, wheel of luck, blackjack, plinko, and more. As a (POC) Proof of Concept we developed fully on-chain Roulette but similar model can be applied to introduce the new casino games to the platform.
 
+## GameFlow Architecture and TechStack
 
+![APT-Casino - Analog pptx (2)](https://github.com/user-attachments/assets/0f795dba-6bfd-4f02-95f4-cc61b58df661)
+
+
+![APT-Casino - Analog pptx (4)](https://github.com/user-attachments/assets/60c25fff-14ba-460a-9e20-4c0458f9ac78)
+
+
+![APT-Casino - Analog pptx (7)](https://github.com/user-attachments/assets/ecba7d61-048f-4c46-9af1-2687ce7d7495)
+
+- Next.js
+- Javascript
+- Tailwind CSS
+- Rust
+- Move
+- Solidity
 
 ### What's next
+
 All though started as a idea but now we are thinking to carry forward as a business model and expand further.
 
 - Applying for Grants: Seeking funding to further development and expand the platform.
